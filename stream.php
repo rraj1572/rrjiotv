@@ -2,7 +2,7 @@
 
 include "ip.php";
 include "logincred.php";
-$cont= 'http://'.$ip.'/jiotv/token.php';
+$cont= 'http://'.$ip.'/token.php';
 $p= @file_get_contents($cont); 
 
 if(@$_REQUEST["key"]!="")
